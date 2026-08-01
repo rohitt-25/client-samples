@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>W S Bakers — Flour, butter, and warm ovens</title>
-<meta name="description" content="The counter is set with warm loaves and sweet rolls every morning in Pune.">
+<meta name="description" content="The counter is kept stocked with daily loaves, straightforward buns, and butter biscuits.">
 <meta property="og:title" content="W S Bakers">
 <meta property="og:description" content="Flour, butter, and warm ovens">
 <meta property="og:image" content="https://images.pexels.com/photos/8511855/pexels-photo-8511855.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;dpr=2&amp;w=1600&amp;h=1000">
@@ -77,6 +77,15 @@
   .duo .media:first-child{margin-top:0}
   .sv{grid-template-columns:1fr;gap:.5rem}
 }
+
+/* ---- procedural 3D showpiece ---- */
+.showcase{position:relative;min-height:62vh;display:grid;place-content:center;
+  text-align:center;overflow:hidden}
+.showcase .stage{position:absolute;inset:0;z-index:0}
+.showcase .stage canvas{width:100%;height:100%;display:block}
+.showcase .wrap{position:relative;z-index:1}
+.showcase h2{margin-top:1.2rem}
+@media(max-width:900px){.showcase{min-height:40vh}}
 </style>
 </head>
 <body class="loading v-a">
@@ -112,8 +121,8 @@
     <span class="mark">W S Bakers</span>
     <div>
       <span class="eyebrow fade-up"><i></i>Flour, butter, and warm ovens</span>
-      <h1><span class="split-line"><span>Fresh bread</span></span><span class="split-line"><span>and morning</span></span><span class="split-line"><span>pastries</span></span></h1>
-      <p class="lede fade-up">The counter is set with warm loaves and sweet rolls every morning in Pune.</p>
+      <h1><span class="split-line"><span>Fresh bread</span></span><span class="split-line"><span>and sweet</span></span><span class="split-line"><span>pastry in</span></span><span class="split-line"><span>Pune</span></span></h1>
+      <p class="lede fade-up">The counter is kept stocked with daily loaves, straightforward buns, and butter biscuits.</p>
       <a class="btn fade-up" href="tel:+918411881150">Order now
         <span class="disc"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
     </div>
@@ -123,28 +132,37 @@
   <main class="flow">
     <section class="blk rv" id="about" style="padding:0">
       <span class="eyebrow"><i></i>About us</span>
-      <h2>Daily baking</h2>
-      <p>Baking starts long before the sun comes up, filling the street with the smell of browning crusts. Dough is mixed, shaped by hand, and baked until golden.</p>
-      <p>The counter is kept stocked with simple things made properly.</p>
+      <h2>The daily routine</h2>
+      <p>Every morning begins early with dough mixed by hand and trays slid into hot ovens. The counters fill up as the first trays cool.</p>
+      <p>Visitors are welcomed in to take their time choosing a loaf or a parcel of biscuits.</p>
     </section>
 
     <section class="blk" id="services" style="padding:0;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%3E%3Ccircle%20cx%3D%2212.0%22%20cy%3D%2212.0%22%20r%3D%221.1%22%20fill%3D%22%23e0a84c22%22%2F%3E%3C%2Fsvg%3E")">
       <span class="eyebrow rv"><i></i>What we bake</span>
       <h2 class="rv">Fresh today</h2>
-      <p class="lede rv">Here is what comes out of the ovens.</p>
-      <div class="svlist"><div class="sv rv"><span class="sv-n">01</span><h3 class="sv-h">Crusty Loaves</h3><p class="sv-p">Traditional bread baked with a firm, brown crust.</p></div><div class="sv rv"><span class="sv-n">02</span><h3 class="sv-h">Soft Buns</h3><p class="sv-p">Light and fluffy rolls suitable for sandwiches.</p></div><div class="sv rv"><span class="sv-n">03</span><h3 class="sv-h">Butter Croissants</h3><p class="sv-p">Flaky pastries made with folded layers of butter.</p></div><div class="sv rv"><span class="sv-n">04</span><h3 class="sv-h">Cream Cakes</h3><p class="sv-p">Layered sponge cakes finished with sweet frosting.</p></div><div class="sv rv"><span class="sv-n">05</span><h3 class="sv-h">Fruit Tarts</h3><p class="sv-p">Crisp pastry shells filled with cream and seasonal fruit.</p></div><div class="sv rv"><span class="sv-n">06</span><h3 class="sv-h">Tea Biscuits</h3><p class="sv-p">Dry cookies made to pair with a hot drink.</p></div></div>
+      <p class="lede rv">A selection of daily baked goods is available on the counter.</p>
+      <div class="svlist"><div class="sv rv"><span class="sv-n">01</span><h3 class="sv-h">Crusty Loaves</h3><p class="sv-p">Solid sandwich bread and hearty whole wheat loaves.</p></div><div class="sv rv"><span class="sv-n">02</span><h3 class="sv-h">Butter Biscuits</h3><p class="sv-p">Simple tea-time biscuits packed in paper parcels.</p></div><div class="sv rv"><span class="sv-n">03</span><h3 class="sv-h">Cream Puffs</h3><p class="sv-p">Choux pastry filled with light cream.</p></div><div class="sv rv"><span class="sv-n">04</span><h3 class="sv-h">Fruit Cake</h3><p class="sv-p">Slices loaded with candied peel and dried raisins.</p></div><div class="sv rv"><span class="sv-n">05</span><h3 class="sv-h">Savoury Puffs</h3><p class="sv-p">Flaky pastry wrapped around seasoned potato and peas.</p></div><div class="sv rv"><span class="sv-n">06</span><h3 class="sv-h">Birthday Cakes</h3><p class="sv-p">Sponge cakes finished with soft icing and chocolate shavings.</p></div></div>
     </section>
 
     <section class="blk" style="padding:0">
       <span class="eyebrow rv"><i></i>Gallery</span>
-      <h2 class="rv">A look around</h2>
+      <h2 class="rv">Inside the shop</h2>
       <div class="duo"><figure class="media rv"><img src="https://images.pexels.com/photos/30667454/pexels-photo-30667454.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;dpr=2&amp;w=620&amp;h=820" alt="" width="620" height="820" loading="lazy" decoding="async"></figure><figure class="media rv"><img src="https://images.pexels.com/photos/30797205/pexels-photo-30797205.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;dpr=2&amp;w=620&amp;h=820" alt="" width="620" height="820" loading="lazy" decoding="async"></figure><figure class="media rv"><img src="https://images.pexels.com/photos/37316421/pexels-photo-37316421.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;dpr=2&amp;w=620&amp;h=820" alt="" width="620" height="820" loading="lazy" decoding="async"></figure><figure class="media rv"><img src="https://images.pexels.com/photos/5947600/pexels-photo-5947600.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;dpr=2&amp;w=620&amp;h=820" alt="" width="620" height="820" loading="lazy" decoding="async"></figure><figure class="media rv"><img src="https://images.pexels.com/photos/6281434/pexels-photo-6281434.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;dpr=2&amp;w=620&amp;h=820" alt="" width="620" height="820" loading="lazy" decoding="async"></figure></div>
     </section>
 
-    <section class="blk" id="contact" style="padding:0">
+    
+<section class="showcase">
+  <div class="stage" data-gl-scene="liquid" data-gl-primary="#e0a84c"
+       data-gl-accent="#e5793f"></div>
+  <div class="wrap">
+    <span class="eyebrow rv"><i></i>Flour, butter, and warm ovens</span>
+    <h2 class="rv">Inside the shop</h2>
+  </div>
+</section>
+<section class="blk" id="contact" style="padding:0">
       <span class="eyebrow rv"><i></i>Get in touch</span>
-      <h2 class="rv">Find us</h2>
-      <p class="lede rv">Stop by the shop to see what is fresh on the counter today.</p>
+      <h2 class="rv">Visit the shop</h2>
+      <p class="lede rv">Stop by the counter or call ahead to check what has just come out of the oven.</p>
       <div class="cards">
         <div class="card rv"><b>Phone</b><a href="tel:+918411881150">+918411881150</a></div>
         <div class="card rv"><b>Address</b>
@@ -348,7 +366,7 @@ last = y;
 var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 if (reduced) return;
 if (innerWidth < 760) return;                            // phones keep the plain <img>
-if (!document.querySelector('[data-gl-image],[data-gl-particles]')) return;
+if (!document.querySelector('[data-gl-image],[data-gl-particles],[data-gl-scene]')) return;
 try {
 var probe = document.createElement('canvas');
 if (!probe.getContext('webgl') && !probe.getContext('experimental-webgl')) return;
@@ -486,6 +504,156 @@ texture.minFilter = THREE.LinearFilter;
 try { build(texture); } catch (e) { holder.classList.remove('gl'); }
 }, undefined, function () {  });
 });
+
+var host = document.querySelector('[data-gl-scene]');
+if (host) {
+try {
+buildScene(host, host.dataset.glScene || 'liquid');
+} catch (e) {  }
+}
+function buildScene(holder, kind) {
+var w = holder.clientWidth || innerWidth;
+var h = holder.clientHeight || 520;
+var renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75));
+renderer.setSize(w, h);
+holder.appendChild(renderer.domElement);
+var scene = new THREE.Scene();
+var camera = new THREE.PerspectiveCamera(50, w / h, 0.1, 100);
+camera.position.z = 5;
+var primary = new THREE.Color(holder.dataset.glPrimary || '#7f7fff');
+var accent = new THREE.Color(holder.dataset.glAccent || '#ff8a5c');
+var clock = new THREE.Clock();
+var mx = 0, my = 0, group = new THREE.Group();
+scene.add(group);
+if (kind === 'orbs') {
+scene.add(new THREE.AmbientLight(0xffffff, 0.55));
+var key = new THREE.DirectionalLight(0xffffff, 1.5);
+key.position.set(3, 4, 5);
+scene.add(key);
+var rim = new THREE.PointLight(accent.getHex(), 22, 18);
+rim.position.set(-4, -2, 3);
+scene.add(rim);
+for (var i = 0; i < 7; i++) {
+var orb = new THREE.Mesh(
+new THREE.SphereGeometry(0.32 + (i % 3) * 0.24, 48, 48),
+new THREE.MeshPhysicalMaterial({
+color: i % 2 ? primary : accent,
+roughness: 0.12 + (i % 3) * 0.1,
+metalness: 0.15,
+clearcoat: 1,
+clearcoatRoughness: 0.08,
+transmission: i % 2 ? 0.5 : 0,
+thickness: 1.2,
+})
+);
+orb.position.set(
+Math.cos((i / 7) * Math.PI * 2) * 2.6,
+Math.sin((i / 7) * Math.PI * 3) * 1.3,
+Math.sin((i / 7) * Math.PI * 2) * 1.4
+);
+orb.userData.speed = 0.25 + (i % 4) * 0.14;
+orb.userData.base = orb.position.y;
+group.add(orb);
+}
+} else if (kind === 'ribbon') {
+scene.add(new THREE.AmbientLight(0xffffff, 0.5));
+var light = new THREE.DirectionalLight(primary.getHex(), 2.4);
+light.position.set(2, 3, 4);
+scene.add(light);
+var fill = new THREE.DirectionalLight(accent.getHex(), 1.6);
+fill.position.set(-3, -2, 2);
+scene.add(fill);
+group.add(new THREE.Mesh(
+new THREE.TorusKnotGeometry(1.45, 0.34, 220, 32),
+new THREE.MeshPhysicalMaterial({
+color: primary, roughness: 0.18, metalness: 0.65,
+clearcoat: 0.9, clearcoatRoughness: 0.15,
+})
+));
+} else {
+var uniforms = {
+uTime: { value: 0 },
+uMouse: { value: new THREE.Vector2(0, 0) },
+uA: { value: primary },
+uB: { value: accent },
+};
+group.add(new THREE.Mesh(
+new THREE.PlaneGeometry(11, 7, 140, 96),
+new THREE.ShaderMaterial({
+uniforms: uniforms,
+transparent: true,
+vertexShader: [
+'uniform float uTime; uniform vec2 uMouse;',
+'varying float vH; varying vec2 vUv;',
+'void main(){',
+'  vUv = uv; vec3 p = position;',
+'  float t = uTime * 0.42;',
+'  float hgt = sin(p.x * 0.7 + t) * 0.42',
+'            + sin(p.y * 0.9 - t * 1.2) * 0.3',
+'            + sin((p.x + p.y) * 0.5 + t * 0.7) * 0.24;',
+'  hgt += (uMouse.x * p.x + uMouse.y * p.y) * 0.05;',
+'  p.z += hgt; vH = hgt;',
+'  gl_Position = projectionMatrix * modelViewMatrix * vec4(p,1.0);',
+'}',
+].join('\n'),
+fragmentShader: [
+'uniform vec3 uA; uniform vec3 uB;',
+'varying float vH; varying vec2 vUv;',
+'void main(){',
+'  float m = clamp(vH * 0.6 + 0.5, 0.0, 1.0);',
+'  vec3 c = mix(uA, uB, m);',
+'  c += pow(m, 3.0) * 0.35;',                       // highlight on the crests
+'  float edge = smoothstep(0.0,0.28,vUv.x) * smoothstep(1.0,0.72,vUv.x)',
+'             * smoothstep(0.0,0.28,vUv.y) * smoothstep(1.0,0.72,vUv.y);',
+'  gl_FragColor = vec4(c, edge * 0.92);',           // fade out at the borders
+'}',
+].join('\n'),
+})
+));
+group.rotation.x = -0.62;
+group.userData.uniforms = uniforms;
+}
+addEventListener('mousemove', function (e) {
+mx = e.clientX / innerWidth - 0.5;
+my = e.clientY / innerHeight - 0.5;
+});
+var running = true;
+(function draw() {
+if (!running) return;
+requestAnimationFrame(draw);
+var t = clock.getElapsedTime();
+if (kind === 'orbs') {
+group.rotation.y += 0.0022;
+group.children.forEach(function (orb) {
+orb.position.y = orb.userData.base + Math.sin(t * orb.userData.speed) * 0.42;
+orb.rotation.x += 0.004;
+});
+} else if (kind === 'ribbon') {
+group.rotation.y += 0.0035;
+group.rotation.x = Math.sin(t * 0.22) * 0.28;
+} else {
+group.userData.uniforms.uTime.value = t;
+group.userData.uniforms.uMouse.value.set(mx, -my);
+}
+camera.position.x += (mx * 1.3 - camera.position.x) * 0.035;
+camera.position.y += (-my * 0.9 - camera.position.y) * 0.035;
+camera.lookAt(0, 0, 0);
+renderer.render(scene, camera);
+})();
+new IntersectionObserver(function (entries) {
+entries.forEach(function (en) {
+if (en.isIntersecting && !running) { running = true; draw(); }
+else if (!en.isIntersecting) running = false;
+});
+}, { threshold: 0.01 }).observe(holder);
+addEventListener('resize', function () {
+var nw = holder.clientWidth || innerWidth, nh = holder.clientHeight || 520;
+renderer.setSize(nw, nh);
+camera.aspect = nw / nh;
+camera.updateProjectionMatrix();
+});
+}
 
 var field = document.querySelector('[data-gl-particles]');
 if (field) {
