@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Diamond Bakery — Warm bread and early morning flour</title>
-<meta name="description" content="The counter is stocked with soft loaves, crisp crusts, and simple butter biscuits every morning.">
+<title>Diamond Bakery — Warm bread and sugar dust</title>
+<meta name="description" content="The morning starts early with the smell of warm dough and rising yeast.">
 <meta property="og:title" content="Diamond Bakery">
-<meta property="og:description" content="Warm bread and early morning flour">
+<meta property="og:description" content="Warm bread and sugar dust">
 <meta property="og:image" content="https://images.pexels.com/photos/9120377/pexels-photo-9120377.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;dpr=2&amp;w=1600&amp;h=1000">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://images.pexels.com" crossorigin>
@@ -68,6 +68,15 @@ figcaption{font-size:.74rem;color:var(--dim);margin-top:.7rem;letter-spacing:.02
   .plates .media:first-child{grid-column:span 2}
   .masthead{margin-top:5.2rem}
 }
+
+/* ---- procedural 3D showpiece ---- */
+.showcase{position:relative;min-height:62vh;display:grid;place-content:center;
+  text-align:center;overflow:hidden}
+.showcase .stage{position:absolute;inset:0;z-index:0}
+.showcase .stage canvas{width:100%;height:100%;display:block}
+.showcase .wrap{position:relative;z-index:1}
+.showcase h2{margin-top:1.2rem}
+@media(max-width:900px){.showcase{min-height:40vh}}
 </style>
 </head>
 <body class="loading v-b">
@@ -98,9 +107,9 @@ figcaption{font-size:.74rem;color:var(--dim);margin-top:.7rem;letter-spacing:.02
   <div class="masthead"><span>bakery</span><span>Pune</span><span>2026</span></div>
 
   <header class="lead hero">
-    <span class="eyebrow fade-up"><i></i>Warm bread and early morning flour</span>
-    <h1><span class="split-line"><span>Fresh bread</span></span><span class="split-line"><span>and morning</span></span><span class="split-line"><span>pastries</span></span></h1>
-    <p class="standfirst fade-up">The counter is stocked with soft loaves, crisp crusts, and simple butter biscuits every morning.</p>
+    <span class="eyebrow fade-up"><i></i>Warm bread and sugar dust</span>
+    <h1><span class="split-line"><span>Flour and</span></span><span class="split-line"><span>butter on</span></span><span class="split-line"><span>the counter</span></span></h1>
+    <p class="standfirst fade-up">The morning starts early with the smell of warm dough and rising yeast.</p>
     <div class="byline fade-up"><span>bakery</span><span>Pune</span>
       <span>Open — call to confirm</span></div>
     <a class="btn fade-up" href="tel:+912026861893">Order now
@@ -116,33 +125,42 @@ figcaption{font-size:.74rem;color:var(--dim);margin-top:.7rem;letter-spacing:.02
   </header>
 </div>
 
-<div class="marquee"><span>Warm bread and early morning flour</span><span>Warm bread and early morning flour</span><span>Warm bread and early morning flour</span></div>
+<div class="marquee"><span>Warm bread and sugar dust</span><span>Warm bread and sugar dust</span><span>Warm bread and sugar dust</span></div>
 
 <section id="about"><div class="wrap">
   <hr class="rule">
   <span class="eyebrow rv" style="margin-top:1.6rem"><i></i>About us</span>
-  <h2 class="rv" style="margin-top:1rem">From the oven</h2>
-  <div class="columns rv"><p>Every morning starts with the steady work of mixing flour, water, and yeast into dough. Trays of rolls and pastry go into the heat until the crusts turn golden and the shop fills with the smell of baking.</p><p>Walk in, take a brown paper bag, and choose what looks good for breakfast or tea.</p></div>
+  <h2 class="rv" style="margin-top:1rem">Every day in the shop</h2>
+  <div class="columns rv"><p>Trays of loaves, rolls, and pastries are brought out as the sun comes up. Flour gets dusted across the wooden tables and the ovens stay warm through the morning hours.</p><p>People stopping by are helped across the counter with a brown paper bag and a polite nod.</p></div>
 </div></section>
 
 <section id="services" style="background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%3E%3Ccircle%20cx%3D%2212.0%22%20cy%3D%2212.0%22%20r%3D%221.1%22%20fill%3D%22%23e0607f22%22%2F%3E%3C%2Fsvg%3E")"><div class="wrap">
   <hr class="rule">
   <span class="eyebrow rv" style="margin-top:1.6rem"><i></i>What we bake</span>
   <h2 class="rv" style="margin-top:1rem">Fresh today</h2>
-  <p class="lede rv" style="margin-top:.8rem">A daily selection of simple baked goods.</p>
-  <div class="svlist"><div class="sv rv"><span class="sv-n">01</span><h3 class="sv-h">Daily Loaves</h3><p class="sv-p">Soft sandwich bread and crusty white loaves sliced to order.</p></div><div class="sv rv"><span class="sv-n">02</span><h3 class="sv-h">Morning Butter Buns</h3><p class="sv-p">Light, fluffy rolls brushed with butter while still warm.</p></div><div class="sv rv"><span class="sv-n">03</span><h3 class="sv-h">Tea Biscuits</h3><p class="sv-p">Crisp, plain cookies meant for dipping into hot milk or chai.</p></div><div class="sv rv"><span class="sv-n">04</span><h3 class="sv-h">Cream Rolls</h3><p class="sv-p">Flaky pastry cones filled with light, sweet cream.</p></div><div class="sv rv"><span class="sv-n">05</span><h3 class="sv-h">Fruit Cake</h3><p class="sv-p">Simple sponge cake studded with candied peel and raisins.</p></div><div class="sv rv"><span class="sv-n">06</span><h3 class="sv-h">Puff Pastry</h3><p class="sv-p">Layered pastry shells with savory vegetable or egg fillings.</p></div></div>
+  <p class="lede rv" style="margin-top:.8rem">A look at what comes out of the ovens each morning.</p>
+  <div class="svlist"><div class="sv rv"><span class="sv-n">01</span><h3 class="sv-h">Crusty bread loaves</h3><p class="sv-p">Simple white and brown loaves with a firm, golden crust.</p></div><div class="sv rv"><span class="sv-n">02</span><h3 class="sv-h">Soft butter buns</h3><p class="sv-p">Light, fluffy rolls that pull apart easily for tea time.</p></div><div class="sv rv"><span class="sv-n">03</span><h3 class="sv-h">Fruit and nut cakes</h3><p class="sv-p">Slices loaded with raisins, peel, and chopped nuts.</p></div><div class="sv rv"><span class="sv-n">04</span><h3 class="sv-h">Crisp biscuit packs</h3><p class="sv-p">Butter and jeera cookies packed in paper wrappers.</p></div><div class="sv rv"><span class="sv-n">05</span><h3 class="sv-h">Cream-filled pastries</h3><p class="sv-p">Light pastry shells filled with sweet cream and icing.</p></div><div class="sv rv"><span class="sv-n">06</span><h3 class="sv-h">Khari and puff snacks</h3><p class="sv-p">Flaky, layered pastry snacks that crumble with every bite.</p></div></div>
 </div></section>
 
 <section><div class="wrap">
   <hr class="rule">
-  <h2 class="rv" style="margin-top:1.6rem">Inside the shop</h2>
+  <h2 class="rv" style="margin-top:1.6rem">A look around</h2>
   <div class="plates"><figure class="media rv"><img src="https://images.pexels.com/photos/37316421/pexels-photo-37316421.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;dpr=2&amp;w=620&amp;h=820" alt="" width="620" height="820" loading="lazy" decoding="async"></figure><figure class="media rv"><img src="https://images.pexels.com/photos/38455659/pexels-photo-38455659.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;dpr=2&amp;w=620&amp;h=820" alt="" width="620" height="820" loading="lazy" decoding="async"></figure><figure class="media rv"><img src="https://images.pexels.com/photos/30274512/pexels-photo-30274512.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;dpr=2&amp;w=620&amp;h=820" alt="" width="620" height="820" loading="lazy" decoding="async"></figure><figure class="media rv"><img src="https://images.pexels.com/photos/6281434/pexels-photo-6281434.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;dpr=2&amp;w=620&amp;h=820" alt="" width="620" height="820" loading="lazy" decoding="async"></figure><figure class="media rv"><img src="https://images.pexels.com/photos/14363849/pexels-photo-14363849.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;dpr=2&amp;w=620&amp;h=820" alt="" width="620" height="820" loading="lazy" decoding="async"></figure></div>
 </div></section>
 
+
+<section class="showcase">
+  <div class="stage" data-gl-scene="orbs" data-gl-primary="#e0607f"
+       data-gl-accent="#dba24e"></div>
+  <div class="wrap">
+    <span class="eyebrow rv"><i></i>Warm bread and sugar dust</span>
+    <h2 class="rv">A look around</h2>
+  </div>
+</section>
 <section id="contact"><div class="wrap">
   <span class="eyebrow rv"><i></i>Get in touch</span>
   <h2 class="rv" style="margin-top:1rem">Find us</h2>
-  <p class="lede rv" style="margin-top:.8rem">Stop by the counter or give us a call to check what is coming out of the oven next.</p>
+  <p class="lede rv" style="margin-top:.8rem">Step in through the doors whenever you are in the neighborhood.</p>
   <div class="colophon">
     <div class="rv"><b>Phone</b><a href="tel:+912026861893">+912026861893</a></div>
     <div class="rv"><b>Address</b>
@@ -344,7 +362,7 @@ last = y;
 var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 if (reduced) return;
 if (innerWidth < 760) return;                            // phones keep the plain <img>
-if (!document.querySelector('[data-gl-image],[data-gl-particles]')) return;
+if (!document.querySelector('[data-gl-image],[data-gl-particles],[data-gl-scene]')) return;
 try {
 var probe = document.createElement('canvas');
 if (!probe.getContext('webgl') && !probe.getContext('experimental-webgl')) return;
@@ -482,6 +500,156 @@ texture.minFilter = THREE.LinearFilter;
 try { build(texture); } catch (e) { holder.classList.remove('gl'); }
 }, undefined, function () {  });
 });
+
+var host = document.querySelector('[data-gl-scene]');
+if (host) {
+try {
+buildScene(host, host.dataset.glScene || 'liquid');
+} catch (e) {  }
+}
+function buildScene(holder, kind) {
+var w = holder.clientWidth || innerWidth;
+var h = holder.clientHeight || 520;
+var renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75));
+renderer.setSize(w, h);
+holder.appendChild(renderer.domElement);
+var scene = new THREE.Scene();
+var camera = new THREE.PerspectiveCamera(50, w / h, 0.1, 100);
+camera.position.z = 5;
+var primary = new THREE.Color(holder.dataset.glPrimary || '#7f7fff');
+var accent = new THREE.Color(holder.dataset.glAccent || '#ff8a5c');
+var clock = new THREE.Clock();
+var mx = 0, my = 0, group = new THREE.Group();
+scene.add(group);
+if (kind === 'orbs') {
+scene.add(new THREE.AmbientLight(0xffffff, 0.55));
+var key = new THREE.DirectionalLight(0xffffff, 1.5);
+key.position.set(3, 4, 5);
+scene.add(key);
+var rim = new THREE.PointLight(accent.getHex(), 22, 18);
+rim.position.set(-4, -2, 3);
+scene.add(rim);
+for (var i = 0; i < 7; i++) {
+var orb = new THREE.Mesh(
+new THREE.SphereGeometry(0.32 + (i % 3) * 0.24, 48, 48),
+new THREE.MeshPhysicalMaterial({
+color: i % 2 ? primary : accent,
+roughness: 0.12 + (i % 3) * 0.1,
+metalness: 0.15,
+clearcoat: 1,
+clearcoatRoughness: 0.08,
+transmission: i % 2 ? 0.5 : 0,
+thickness: 1.2,
+})
+);
+orb.position.set(
+Math.cos((i / 7) * Math.PI * 2) * 2.6,
+Math.sin((i / 7) * Math.PI * 3) * 1.3,
+Math.sin((i / 7) * Math.PI * 2) * 1.4
+);
+orb.userData.speed = 0.25 + (i % 4) * 0.14;
+orb.userData.base = orb.position.y;
+group.add(orb);
+}
+} else if (kind === 'ribbon') {
+scene.add(new THREE.AmbientLight(0xffffff, 0.5));
+var light = new THREE.DirectionalLight(primary.getHex(), 2.4);
+light.position.set(2, 3, 4);
+scene.add(light);
+var fill = new THREE.DirectionalLight(accent.getHex(), 1.6);
+fill.position.set(-3, -2, 2);
+scene.add(fill);
+group.add(new THREE.Mesh(
+new THREE.TorusKnotGeometry(1.45, 0.34, 220, 32),
+new THREE.MeshPhysicalMaterial({
+color: primary, roughness: 0.18, metalness: 0.65,
+clearcoat: 0.9, clearcoatRoughness: 0.15,
+})
+));
+} else {
+var uniforms = {
+uTime: { value: 0 },
+uMouse: { value: new THREE.Vector2(0, 0) },
+uA: { value: primary },
+uB: { value: accent },
+};
+group.add(new THREE.Mesh(
+new THREE.PlaneGeometry(11, 7, 140, 96),
+new THREE.ShaderMaterial({
+uniforms: uniforms,
+transparent: true,
+vertexShader: [
+'uniform float uTime; uniform vec2 uMouse;',
+'varying float vH; varying vec2 vUv;',
+'void main(){',
+'  vUv = uv; vec3 p = position;',
+'  float t = uTime * 0.42;',
+'  float hgt = sin(p.x * 0.7 + t) * 0.42',
+'            + sin(p.y * 0.9 - t * 1.2) * 0.3',
+'            + sin((p.x + p.y) * 0.5 + t * 0.7) * 0.24;',
+'  hgt += (uMouse.x * p.x + uMouse.y * p.y) * 0.05;',
+'  p.z += hgt; vH = hgt;',
+'  gl_Position = projectionMatrix * modelViewMatrix * vec4(p,1.0);',
+'}',
+].join('\n'),
+fragmentShader: [
+'uniform vec3 uA; uniform vec3 uB;',
+'varying float vH; varying vec2 vUv;',
+'void main(){',
+'  float m = clamp(vH * 0.6 + 0.5, 0.0, 1.0);',
+'  vec3 c = mix(uA, uB, m);',
+'  c += pow(m, 3.0) * 0.35;',                       // highlight on the crests
+'  float edge = smoothstep(0.0,0.28,vUv.x) * smoothstep(1.0,0.72,vUv.x)',
+'             * smoothstep(0.0,0.28,vUv.y) * smoothstep(1.0,0.72,vUv.y);',
+'  gl_FragColor = vec4(c, edge * 0.92);',           // fade out at the borders
+'}',
+].join('\n'),
+})
+));
+group.rotation.x = -0.62;
+group.userData.uniforms = uniforms;
+}
+addEventListener('mousemove', function (e) {
+mx = e.clientX / innerWidth - 0.5;
+my = e.clientY / innerHeight - 0.5;
+});
+var running = true;
+(function draw() {
+if (!running) return;
+requestAnimationFrame(draw);
+var t = clock.getElapsedTime();
+if (kind === 'orbs') {
+group.rotation.y += 0.0022;
+group.children.forEach(function (orb) {
+orb.position.y = orb.userData.base + Math.sin(t * orb.userData.speed) * 0.42;
+orb.rotation.x += 0.004;
+});
+} else if (kind === 'ribbon') {
+group.rotation.y += 0.0035;
+group.rotation.x = Math.sin(t * 0.22) * 0.28;
+} else {
+group.userData.uniforms.uTime.value = t;
+group.userData.uniforms.uMouse.value.set(mx, -my);
+}
+camera.position.x += (mx * 1.3 - camera.position.x) * 0.035;
+camera.position.y += (-my * 0.9 - camera.position.y) * 0.035;
+camera.lookAt(0, 0, 0);
+renderer.render(scene, camera);
+})();
+new IntersectionObserver(function (entries) {
+entries.forEach(function (en) {
+if (en.isIntersecting && !running) { running = true; draw(); }
+else if (!en.isIntersecting) running = false;
+});
+}, { threshold: 0.01 }).observe(holder);
+addEventListener('resize', function () {
+var nw = holder.clientWidth || innerWidth, nh = holder.clientHeight || 520;
+renderer.setSize(nw, nh);
+camera.aspect = nw / nh;
+camera.updateProjectionMatrix();
+});
+}
 
 var field = document.querySelector('[data-gl-particles]');
 if (field) {
