@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>11 East Street Cafe — Plates warm and tables set</title>
-<meta name="description" content="A neighborhood restaurant in Pune for unhurried meals and familiar company.">
+<meta name="description" content="Come in for a hearty meal and a quiet place to sit.">
 <meta property="og:title" content="11 East Street Cafe">
 <meta property="og:description" content="Plates warm and tables set">
 <meta property="og:image" content="https://images.pexels.com/photos/38041349/pexels-photo-38041349.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;dpr=2&amp;w=1600&amp;h=1000">
@@ -33,12 +33,17 @@
   flex-direction:column;justify-content:space-between;padding:var(--s6);color:#fff}
 .pin .shot{position:absolute;inset:0;z-index:0}
 .pin .shot img{width:100%;height:100%;object-fit:cover}
-/* The scrim is the only reason unknown stock can carry white type at all. Angled so the
-   densest part sits under the headline, and strong enough for a bright photograph. */
+/* The scrim is the only reason unknown stock can carry white type at all.
+
+   Built from black, NOT from --ink. The text in this panel is always #fff, so the scrim
+   behind it must always be dark — and --ink is light on every dark scheme (ember, obsidian,
+   noir…), where an ink-based scrim brightens the photograph and leaves white type sitting
+   on white. The palette arrives unknown at build time, so nothing here may assume its
+   direction. This shipped on a live page before it was caught. */
 .pin::after{content:'';position:absolute;inset:0;z-index:1;
   background:linear-gradient(200deg,
-    color-mix(in srgb,var(--ink) 42%,transparent),
-    color-mix(in srgb,var(--ink) 94%,transparent) 72%)}
+    color-mix(in srgb,#000 46%,transparent),
+    color-mix(in srgb,#000 88%,transparent) 72%)}
 .pin > *{position:relative;z-index:2}
 .pin .mark{font-family:var(--display);font-weight:var(--dw);font-size:1.15rem;
   letter-spacing:-.03em}
@@ -165,8 +170,8 @@
     <span class="mark">11 East Street Cafe</span>
     <div>
       <span class="eyebrow fade-up"><i></i>Plates warm and tables set</span>
-      <h1><span class="split-line"><span>Good food</span></span><span class="split-line"><span>and quiet</span></span><span class="split-line"><span>corners</span></span></h1>
-      <p class="lede fade-up">A neighborhood restaurant in Pune for unhurried meals and familiar company.</p>
+      <h1><span class="split-line"><span>Good food</span></span><span class="split-line"><span>brought to</span></span><span class="split-line"><span>your table</span></span></h1>
+      <p class="lede fade-up">Come in for a hearty meal and a quiet place to sit.</p>
       <a class="btn fade-up" href="tel:+912041045500">Book a table
         <span class="disc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
       <a class="dial" href="tel:+912041045500"><b>Call us</b><strong>+912041045500</strong></a>
@@ -177,14 +182,14 @@
   <main class="flow" id="main">
     <section class="blk rv" id="about" aria-labelledby="about-h">
       <span class="eyebrow"><i></i>About us</span>
-      <h2 id="about-h">The daily rhythm</h2>
-      <p>Doors open to fresh linens, set tables, and the low hum of conversation. Kitchens prep simple stocks and sauces while the dining room fills with the morning light.</p>
+      <h2 id="about-h">A place to eat</h2>
+      <p>Kitchens fill with the smell of fresh ingredients each morning as stocks simmer and vegetables are chopped. Orders are taken at the counter and plates are brought out as soon as they are ready.</p>
     </section>
 
     <section class="blk" id="services" style="background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20200%22%3E%3Cpath%20d%3D%22M136.1%2C117.2%20A40%2C40%200%200%2C1%2062.0%2C112.4%22%20fill%3D%22none%22%20stroke%3D%22%238a5a1a22%22%20stroke-width%3D%220.9%22%20opacity%3D%220.55%22%2F%3E%3Cpath%20d%3D%22M101.6%2C166.0%20A66%2C66%200%200%2C1%2054.4%2C52.3%22%20fill%3D%22none%22%20stroke%3D%22%238a5a1a22%22%20stroke-width%3D%220.9%22%20opacity%3D%220.55%22%2F%3E%3Cpath%20d%3D%22M96.5%2C191.9%20A92%2C92%200%201%2C1%20104.4%2C8.1%22%20fill%3D%22none%22%20stroke%3D%22%238a5a1a22%22%20stroke-width%3D%220.9%22%20opacity%3D%220.55%22%2F%3E%3C%2Fsvg%3E");background-size:min(38rem,80vw);background-position:left -6rem bottom -4rem;background-repeat:no-repeat" aria-labelledby="services-h">
       <span class="eyebrow rv"><i></i>What we cook</span>
       <h2 class="rv" id="services-h">Our menu</h2>
-      <div class="svlist"><div class="sv rv"><span class="sv-n">01</span><h3 class="sv-h">Fresh Garden Salad</h3><p class="sv-p">Crisp greens tossed with seasonal vegetables and light dressings.</p></div><div class="sv rv"><span class="sv-n">02</span><h3 class="sv-h">Warm Soup Bowls</h3><p class="sv-p">Steaming broths and thick vegetable purees served with crusty bread.</p></div><div class="sv rv"><span class="sv-n">03</span><h3 class="sv-h">Roasted Main Plates</h3><p class="sv-p">Hearty portions of protein and grains paired with roasted roots.</p></div><div class="sv rv"><span class="sv-n">04</span><h3 class="sv-h">House Pasta Dishes</h3><p class="sv-p">Tossed noodles in rich tomato sauces and herb butter.</p></div><div class="sv rv"><span class="sv-n">05</span><h3 class="sv-h">Baked Bread Baskets</h3><p class="sv-p">Assorted rolls and sliced loaves brought warm to the table.</p></div><div class="sv rv"><span class="sv-n">06</span><h3 class="sv-h">Simple Sweet Pastries</h3><p class="sv-p">Classic cakes and tarts sliced and served with tea or coffee.</p></div></div>
+      <div class="svlist"><div class="sv rv"><span class="sv-n">01</span><h3 class="sv-h">Warm Soups</h3><p class="sv-p">Bowls of vegetable or chicken soup served with crusty bread.</p></div><div class="sv rv"><span class="sv-n">02</span><h3 class="sv-h">Fresh Salads</h3><p class="sv-p">Crisp greens tossed with seasonal vegetables and simple dressings.</p></div><div class="sv rv"><span class="sv-n">03</span><h3 class="sv-h">Hot Burgers</h3><p class="sv-p">Juicy patties in soft buns with lettuce, tomato, and fries.</p></div><div class="sv rv"><span class="sv-n">04</span><h3 class="sv-h">Pasta Plates</h3><p class="sv-p">Tossed noodles served with tomato sauce, garlic, and herbs.</p></div><div class="sv rv"><span class="sv-n">05</span><h3 class="sv-h">Baked Pizza</h3><p class="sv-p">Round crusts topped with melted cheese and sliced vegetables.</p></div><div class="sv rv"><span class="sv-n">06</span><h3 class="sv-h">Sweet Pastry</h3><p class="sv-p">Slices of cake and biscuits to have with tea or coffee.</p></div></div>
     </section>
 
     <section class="blk" aria-labelledby="gallery-h">
@@ -205,7 +210,7 @@
     <section class="blk" id="contact" aria-labelledby="contact-h">
       <span class="eyebrow rv"><i></i>Get in touch</span>
       <h2 class="rv" id="contact-h">Find us</h2>
-      <p class="lede rv" style="margin-top:var(--s4)">Stop by East Street or call ahead to reserve a table.</p>
+      <p class="lede rv" style="margin-top:var(--s4)">Stop by for a meal whenever you are in the neighborhood.</p>
       <div class="panel rv"><b>Call</b><a href="tel:+912041045500">+912041045500</a></div>
       <div class="panel rv"><b>Where to find us</b>
         <a href="https://www.google.com/maps/search/11+East+Street+Cafe+East+Street,+Pune" target="_blank" rel="noopener">East Street, Pune</a></div>
@@ -218,7 +223,7 @@
       <div class="wrap">
         <span class="eyebrow rv"><i></i>Plates warm and tables set</span>
         <h2 class="rv" id="cta-h">Find us</h2>
-        <p class="rv">Stop by East Street or call ahead to reserve a table.</p>
+        <p class="rv">Stop by for a meal whenever you are in the neighborhood.</p>
         <div class="row rv">
           <a class="btn" href="tel:+912041045500">Book a table
             <span class="disc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
